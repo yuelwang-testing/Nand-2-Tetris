@@ -1,6 +1,6 @@
-module and (
-    input a, b;
-    output out;
+module And (
+    input a, b,
+    output out
 );
     wire c;
     nand gate1(c, a, b);
